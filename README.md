@@ -37,3 +37,16 @@ WebSockets offers a number of benefits over other communication protocols, such 
 3. Bidirectional communication: WebSockets allows for bidirectional communication, meaning that both the client and the server can send messages to each other.
 4. Efficient use of resources: WebSockets reduces the amount of overhead associated with setting up and tearing down connections, which can lead to more efficient use of server resources.
 
+## YoloV8
+YOLOv8 (You Only Look Once version 8) is a real-time object detection system that uses deep learning to identify and track objects in video streams or images. It is the latest version of the popular YOLO family of object detection models.
+### Getting started
+To get started with Yolov8, you'll first need to install it using pip, the package installer for Python. You can do this by running the following command:
+```
+pip install websockets
+```
+### Features 
+YOLOv8 offers a number of benefits over other object detection systems, such as Faster R-CNN and SSD:
+- Real-time performance: YOLOv8 is designed for real-time object detection, which means it can detect objects in video streams or images as they are being captured.
+- High accuracy: YOLOv8 achieves high accuracy on object detection tasks, making it suitable for a wide range of applications.
+- Flexibility: YOLOv8 can be trained on a wide range of object classes and can be used in a variety of applications, from surveillance to self-driving cars.
+- Open source: YOLOv8 is an open source project, which means that it is freely available for anyone to use and modify.
