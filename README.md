@@ -7,11 +7,11 @@ Flask is a lightweight and popular web framework for Python. It was created by A
 ### Getting Started
 
 To get started with Flask, you'll first need to install it using pip, the package installer for Python. You can do this by running the following command:
-```python
+```
 pip install flask
 ```
 
-## Features
+### Features
 
 Flask is known for its simplicity and flexibility, which make it a great choice for a wide range of web applications. Some of its key features include:
 
@@ -20,3 +20,12 @@ Flask is known for its simplicity and flexibility, which make it a great choice 
 - Support for HTTP requests and responses
 - Templating engine for rendering dynamic content
 - Extensible through a wide range of third-party extensions
+
+## Websockets
+WebSockets is a protocol that enables bidirectional communication between clients and servers. It is designed to be used over HTTP, and can be used to build real-time web applications such as chat systems, multiplayer games, and collaborative editing tools.
+
+### Getting started
+To get started with websockets, you'll first need to install it using pip, the package installer for Python. You can do this by running the following command:
+```
+pip install websockets
+```
