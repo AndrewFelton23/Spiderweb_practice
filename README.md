@@ -29,3 +29,11 @@ To get started with websockets, you'll first need to install it using pip, the p
 ```
 pip install websockets
 ```
+### Features
+WebSockets offers a number of benefits over other communication protocols, such as long polling and server-sent events:
+
+1. Real-time communication: WebSockets enables real-time communication between clients and servers, allowing for more interactive and responsive web applications.
+2. Lower latency: Because the connection is persistent, there is no need to set up a new connection for each message. This reduces the latency of the communication.
+3. Bidirectional communication: WebSockets allows for bidirectional communication, meaning that both the client and the server can send messages to each other.
+4. Efficient use of resources: WebSockets reduces the amount of overhead associated with setting up and tearing down connections, which can lead to more efficient use of server resources.
+
