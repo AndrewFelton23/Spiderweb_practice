@@ -10,7 +10,7 @@ def img_display():
                     mimetype='multipart/x-mixed-replace;boundary=frame')
 def gen():
     #process the image
-    img = cv2.imread("/Users/andrewfelton/Downloads/Spiderweb Labs/Flask/resources/test_image.jpg")
+    img = cv2.imread("https://github.com/AndrewFelton23/Spiderweb_practice/blob/9215a9bb47fe94cd174a5c264a58d010ffe4e387/Flask/resources/test_image.jpg")
     #encode the image as a jpeg file
     _,enc_img = cv2.imencode('.jpg',img)
     #convert the coded image to bytes

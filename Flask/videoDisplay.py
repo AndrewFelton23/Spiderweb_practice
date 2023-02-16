@@ -10,7 +10,7 @@ def img_display():
                     mimetype='multipart/x-mixed-replace;boundary=frame')
 def gen():
     #process the image
-    _capture = cv2.VideoCapture("/Users/andrewfelton/Downloads/Spiderweb Labs/Flask/resources/test_video.mp4")
+    _capture = cv2.VideoCapture("https://github.com/AndrewFelton23/Spiderweb_practice/blob/9215a9bb47fe94cd174a5c264a58d010ffe4e387/Flask/resources/test_video.mp4")
     #check if the image successfully opened
     if not _capture.isOpened():
         print("Unable to open video")
