@@ -9,6 +9,7 @@ Flask is a lightweight and popular web framework for Python. It was created by A
 To get started with Flask, you'll first need to install it using pip, the package installer for Python. You can do this by running the following command:
 '''''python
 pip install flask
+'''
 
 ## Features
 
