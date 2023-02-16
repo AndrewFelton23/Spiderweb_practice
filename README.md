@@ -42,7 +42,7 @@ YOLOv8 (You Only Look Once version 8) is a real-time object detection system tha
 ### Getting started
 To get started with Yolov8, you'll first need to install it using pip, the package installer for Python. You can do this by running the following command:
 ```
-pip install websockets
+pip install ultralytics
 ```
 ### Features 
 YOLOv8 offers a number of benefits over other object detection systems, such as Faster R-CNN and SSD:
