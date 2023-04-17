@@ -4,7 +4,7 @@ from ultralytics import YOLO
 model = YOLO("yolov8n.pt")
 
 #Streaming from a webcam
-results = model.predict(source=0,save=True, show=True)  # save predictions as labels
+results = model.predict(source="0",save=True, show=True)  # save predictions as labels
 boxes = results[0].boxes
 for detected in boxes.cls:
     if detected == 0:
