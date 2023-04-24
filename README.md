@@ -79,26 +79,28 @@ This is a sample Next.js project that demonstrates how to build server-rendered 
 #### Creating a new project
 
 1. Create a new file by running: 
-    '''clt
-    npx create-next-app@latest
-    '''
+'''
+npx create-next-app@latest
+'''
 2. cd into the create file:
-    '''clt
-    cd my-app
-    '''
+'''
+cd my-app
+'''
 3. Run the development server on your local
-    '''clt
-    npm run dev
-    '''
+'''
+npm run dev
+'''
 
 This will start the Next.js development server with hot module replacement (HMR), allowing you to see changes in real-time as you make edits to your code. The application will be accessible at http://localhost:3000 in your web browser.
 
 ### Production Build
 
 To build the Next.js application for production, run:
-'''clt
+
+'''
 npm run build
 '''
+
 This will generate a production-ready build of your Next.js application in the .next directory.
 
 ### Production Deployment
