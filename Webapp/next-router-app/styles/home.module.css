@@ -1,0 +1,21 @@
+.home_container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    align-content: center;
+  }
+
+.home_card{
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    align-content: center;
+}
+
+.home_card button {
+    color: rgba(40, 40, 40, 0.876);
+    background-color: rgb(105, 124, 173);
+    border-radius: 5px;
+    padding: 20;
+    width: 80%;
+}
